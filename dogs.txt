@@ -1,0 +1,61 @@
+print("Собака короткошерстной породы?")
+x = input().lower().strip()
+if x == "нет":
+    print("Рост собаки менее 50 см?")
+    a = input().lower().strip()
+    if a == "да":
+        print("У собаки доброжелательный характер?")
+        b = input().lower().strip()
+        if b == "да":
+            print("кокер-спаниэль")
+        else:
+            print("ирландский сеттер")
+    else:
+        print("У собаки рост менее 70 см?")
+        c = input().lower().strip()
+        if c == "да":
+            print("У собаки длинные уши?")
+            d = input().lower().strip()
+            if d == "да":
+                print("большой вандейский грифон")
+            else:
+                print("колли")
+        else:
+            print("Окрас рыжий с белыми отметинами?")
+            e = input().lower().strip()
+            if e == "да":
+                print("сенбернар")
+            else:
+                print("Белоснежный окрас?")
+                f = input().lower().strip()
+                if f == "да":
+                    print("ирландский волкодав")
+                else:
+                    print("ньюфаундленд")
+else:
+    print("Рост собаки менее 50 см?")
+    g = input().lower().strip()
+    if g == "да":
+        print("У собаки короткий хвост?")
+        h = input().lower().strip()
+        if h == "да":
+            print("английский бульдог")
+        else:
+            print("У собаки длинные уши?")
+            i = input().lower().strip()
+            if i == "да":
+                print("гончая")
+            else:
+                print("У собаки короткое тело?")
+                j = input().lower().strip()
+                if j == "да":
+                    print("мопс")
+                else:
+                    print("чихуахуа")
+    else:
+        print("Собака весит более 50 кг?")
+        k = input().lower().strip()
+        if k == "да":
+            print("датский дог")
+        else:
+            print("фоксхаунд")
